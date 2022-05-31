@@ -6,7 +6,9 @@ function printSum(arr) {
         sum +=(arr[i]);  
     }
 return sum;
-}
+};
+
+printSum(arr)
 
 // Answer to question 2
 
@@ -24,6 +26,8 @@ function comparePoints(a,b){
     result.push(alicePoint, bobPoint);
     return result;
 };
+
+comparePoints(a,b);
 
 // Answer to question 3
 
@@ -49,11 +53,13 @@ function calculateRatio(arr){
 return ([positiveRatio, negativeRatio, zeroRatio]);
 };
 
+calculateRatio(arr);
 // Answer to question 4
 
 function firstFunction(a,b){
     return a + b;
 };
 
+firstFunction(a,b);
 
-console.log("i have finished my assignment");
+//console.log("i have finished my assignment");
